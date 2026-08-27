@@ -87,8 +87,9 @@ main .catalogo ul li .avaliacaoS{
 		color: #999;
 		padding: 0 0 10px 10px;
 }
-
-
+main .catalogo ul{
+	width: 100%;
+}
 
 
 
