@@ -62,8 +62,6 @@ main .catalogo ul li{
 					height: 350px;
 					border: 1px solid gray;
 					overflow: hidden;
-                    border-radius: 10px
-                    margin: 20px:
 }
 main .catalogo ul li img{
 				width: 100%;
@@ -89,12 +87,8 @@ main .catalogo ul li .avaliacaoS{
 		color: #999;
 		padding: 0 0 10px 10px;
 }
-main .catalogo ul{
-	width: 1160px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 60px;
-}
+
+
 
 
 
