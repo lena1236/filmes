@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 15/10/2026 às 03:29
+-- Tempo de geração: 15/10/2026 às 03:30
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -24,30 +24,22 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `filmes`
+-- Estrutura para tabela `categoria`
 --
 
-CREATE TABLE `filmes` (
+CREATE TABLE `categoria` (
   `id` int(11) NOT NULL,
-  `titulo` varchar(200) NOT NULL
+  `nome` varchar(55) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Despejando dados para a tabela `filmes`
---
-
-INSERT INTO `filmes` (`id`, `titulo`) VALUES
-(1, 'Homem Aranha - Fora de Casa'),
-(2, 'Deadpoll');
 
 --
 -- Índices para tabelas despejadas
 --
 
 --
--- Índices de tabela `filmes`
+-- Índices de tabela `categoria`
 --
-ALTER TABLE `filmes`
+ALTER TABLE `categoria`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -55,10 +47,10 @@ ALTER TABLE `filmes`
 --
 
 --
--- AUTO_INCREMENT de tabela `filmes`
+-- AUTO_INCREMENT de tabela `categoria`
 --
-ALTER TABLE `filmes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+ALTER TABLE `categoria`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
